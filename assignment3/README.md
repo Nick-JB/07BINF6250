@@ -193,7 +193,7 @@ def select_motif(score_list):
 ```
 
 # Successes
-Description of the team's learning points
+We worked quite well with talking through the planning process of the pseudocode and the flow of our implementation as everyone had suggestions of their own for the improvement of the code. We were helping one another understand the algorithm and the biological aspects to consider as well. Outside the meeting, we were updating one another and communicating our thought process and ideas as well as our progress. Therefore, we were able to make decisions as a group and work collaboratively.
 
 # Struggles
 The three biggest struggles we faced in this project with respect to algorithmic implementation were identifying when and when not to recalculate the matrices, how to account for the reverse compliment sequence (we're still not sure if we did this one correctly), and how to appropriately assign probabilities to motifs from the left out sequence based on their scores from the pwm.
@@ -210,6 +210,10 @@ My biggest takeaway from this project is how crucial it is to break down problem
 
 ## Other member
 Hongyuan Deng：Through this project, I gained a deep understanding of stochastic algorithms, specifically fixing critical errors in log-likelihood probability conversion and iterative model convergence. I also learned to bridge the gap between raw data and algorithm efficiency by applying a simplified peak-calling heuristic to reduce noise in the input dataset.
+
+
+Thu Thu Han: Compared to last week's project, I had a lot of biological aspects to consider. It took me quite some time to understand the concept of Gibbs sampling and how it requires statistical measures as well. Moreover, I learned how to connect the dots to my previous knowledge of markov chains and bioinformatics tools and basics of utilizing the genome browser. This project taught me to take a step back and look at the problem from different aspects when I am not making any progress. In terms of implementation, I have gotten more comfortable using the numpy module and installing and utilizing external tools for visualization. 
+
 
 # Generative AI Appendix
 No AI was used for the creation of this project.
