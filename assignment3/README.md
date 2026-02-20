@@ -1,6 +1,8 @@
 # Introduction
 This project implements a Gibbs Sampling algorithm to identify transcription factor binding sites (motifs) from ChIP-seq data, utilizing a simplified Peak Calling strategy to enhance signal-to-noise ratio. By iteratively updating Position Weight Matrices (PWMs) and employing probabilistic sampling on both strands, the model converges to identifying statistically significant sequence patterns. The final results are visualized via Sequence Logos, demonstrating the efficacy of stochastic methods in uncovering hidden biological signals within complex genomic backgrounds.
 
+**Note** - our final, complete code is project03-complete.ipynb in the project03 folder.
+
 # Pseudocode
 What we know about the algorithm:
 
